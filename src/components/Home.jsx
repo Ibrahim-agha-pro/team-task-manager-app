@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center ">
+    <div className="min-h-[calc(100vh-56px)] md:min-h-[calc(100vh-64px)] flex justify-center items-center absolute w-full">
       <div className="p-8 max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold mb-4">Welcome to Team Manager</h2>
         <p className="text-gray-600 mb-6">

@@ -63,7 +63,7 @@ const TeamList = () => {
   const [newMember, setNewMember] = useState("");
 
   return (
-    <div className="p-6 max-w-3xl mx-auto space-y-6">
+    <div className="p-6  max-w-3xl mx-auto space-y-6">
       <h1 className="text-3xl font-bold text-gray-900">Team Members</h1>
 
       <div className="flex gap-2">

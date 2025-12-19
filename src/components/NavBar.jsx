@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="bg-gradient-to-r fixed w-full from-blue-600 to-indigo-600 text-white shadow-lg">
+    <nav className="bg-gradient-to-r sticky top-0 h-[56px] md:h-[64px] w-full from-blue-600 to-indigo-600 text-white shadow-lg">
       <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
         <h1 className="text-md md:text-2xl font-extrabold tracking-wide">
           🚀 Team Manager
